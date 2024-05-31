@@ -96,6 +96,24 @@ main {
     margin-top: 0.5em;
     font-size: 1em;
 }
+.buy-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #32cd32, #228b22);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.buy-button:hover {
+    background: linear-gradient(45deg, #228b22, #32cd32);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
 
 /* Footer Styles */
 footer {
@@ -129,14 +147,16 @@ footer p {
     .gallery-item {
         width: 100%;
     }
-}
+    
+   }
+
 
 	   </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>MIN-Kart</h1>
+            <h1>MIN Kart</h1>
             <nav>
                 <ul>
                     
@@ -149,7 +169,7 @@ footer p {
     <main>
         <div class="container">
             <section class="intro">
-                <h2>Welcome to MIN-Kart</h2>
+                <h2>Welcome to MIN Kart</h2>
                 <p>Your one-stop shop for beautiful calligraphy photos.</p>
             </section>
             
@@ -158,14 +178,18 @@ footer p {
                 <div class="gallery-item">
                     <img src="1.jpeg" alt="Calligraphy 1">
                     <p>₹450</p>
+                    <button class="buy-button">Buy</button>
+                    
                 </div>
                 <div class="gallery-item">
                     <img src="2.jpeg" alt="Calligraphy 2">
                     <p>₹250</p>
+                    <button class="buy-button">Buy</button>
                 </div>
                 <div class="gallery-item">
                     <img src="3.jpeg" alt="Calligraphy 3">
                     <p>₹500</p>
+                    <button class="buy-button">Buy</button>
                 </div>
                 <!-- Add more gallery items as needed -->
             </section>
@@ -174,7 +198,7 @@ footer p {
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 MIN-Kart. All rights reserved.</p>
+            <p>&copy; 2024 MIN Kart. All rights reserved.</p>
         </div>
     </footer>
 </body>
